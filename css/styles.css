@@ -1,0 +1,43 @@
+/* importamos las fuentes */
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+@import "./start.css";
+@import "./flip-card.css";
+@import "./navbar.css";
+@import "./aboutme.css";
+@import "./skills.css";
+@import "./barlenguage.css";
+@import "./summary.css";
+@import "./contacts.css";
+
+
+ /* GENERAL STYLES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Titillium Web";
+}
+
+.title-section{
+    font-family: "Yellowtail";
+    font-size: 1.5rem;
+}
+
+.container-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.container-section h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}

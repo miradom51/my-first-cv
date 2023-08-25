@@ -1,0 +1,53 @@
+/* SECTION SUMMARY */
+
+.summary{
+    background-color: var(--bg-color-secondary);
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+
+.summary .container-section .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.summary .container-section .info .col{
+    width: 45%;
+}
+.summary .container-section .info .col .title{
+    display: inline-block;
+    color: var(--color-primary);
+    font-weight: bold;
+    border: 2px solid var(--color-primary);
+    padding: 10px;
+
+}
+.summary .container-section .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.summary .container-section .info .col table .date{
+    width: 40%;
+    border-bottom: 1px solid var(--color-secondary);
+}
+.summary .container-section .info .col table h4{
+    margin-top: 10px;
+}
+.summary .container-section .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.summary .container-section .info .col table p{
+    font-size: 14px;
+}
+.summary .container-section .info .col table .average{
+    display: block;
+    color: var(--color-primary);
+    margin-top: 10px;
+    font-weight: bold;
+}
+.summary .container-section .info .col table .description{
+    border-left: 1px solid var(--color-secondary);
+    padding-left: 20px;
+}

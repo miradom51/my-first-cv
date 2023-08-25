@@ -1,0 +1,39 @@
+/* SECTION SKILLS */
+
+.skills{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(var(--bg-color), var(--bg-color)),
+    url("../assets/img/fondo-2.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: var(--color);
+}
+
+.skills .container-section .row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.skills .container-section .row .col{
+    width: 47%;
+    text-align: left;
+}
+.skills .container-section .row .col .cont-bar{
+    display: flex;
+    align-items: center;
+}
+.skills .container-section .bar{
+    display: flex;
+    border: 1px solid var(--color-primary);
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.skills .container-section .bar .e{
+    background-color: var(--color-dark-gray);
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}

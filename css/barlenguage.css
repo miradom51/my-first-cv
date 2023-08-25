@@ -1,0 +1,51 @@
+/* BAR LENGUAGE */
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-color-white);
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    position: relative;
+    animation: fill-progress 2s ease;
+}
+
+@keyframes fill-progress {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Establecer la anchura de la barra de progreso según el porcentaje */
+#html .progress {
+    width: 98%;
+}
+
+#javascript .progress {
+    width: 70%;
+}
+
+#vue .progress {
+    width: 90%;
+}
+
+#java .progress {
+    width: 85%;
+}
+
+#php .progress {
+    width: 95%;
+}
+
+#mysql .progress {
+    width: 75%;
+}

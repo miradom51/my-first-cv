@@ -1,0 +1,12 @@
+:root{
+    --bg-color: rgba(0, 0, 0, 0.5);
+    --bg-color-secondary: #a8a1a1;
+    --bg-color-white: #ddd;
+    --bg-color-dark: #202020;
+    --color: #fff;
+    --color-primary: #940253;
+    --color-secondary: #14a9a2;
+    --color-gray: #666;
+    --color-dark-gray: #363636;
+    --color-black: #000;
+}
